@@ -3,7 +3,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace;
 }
 
 .header {
@@ -22,14 +22,14 @@ body {
 }
 
 .logo {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace;
     font-size: 24px;
     color:#F9FAF8;
     font-weight: bolder;
 }
 
 .links {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     font-size: 18px;
     gap:20px;
     display:flex;
@@ -54,14 +54,13 @@ a {
     flex:1;
     display:flex;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#F9FAF8;
     gap:50px;
     
 }
 
 .welcome {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
     font-size:48px;
     font-weight: bolder;
     color:#F9FAF8;
@@ -74,7 +73,7 @@ a {
 }
 
 .button1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace;
     display:flex;
     background-color: #3882F6;
     padding:5px 24px;
@@ -119,7 +118,7 @@ a {
 }
 
 .infoheader {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     font-size:36px;
     font-weight: bolder;
     color: rgba(47, 231, 63, 0.6);
@@ -145,7 +144,7 @@ a {
 }
 
 .infotext {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
     max-width: 200px;
     font-size: 18px;
     color:rgba(26, 128, 35, 0.986);
@@ -153,7 +152,7 @@ a {
 }
 
 .thirdsection {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     background-color: #E5E7EB;
     display:flex;
     flex-direction: column;
@@ -174,7 +173,7 @@ a {
 }
 
 .fourthsection {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -205,6 +204,7 @@ a {
 }
 
 .button2 {
+    font-family: monospace;
     border-color: #F9FAF8;
     border-radius: 5px;
     background-color: #3882F6;
